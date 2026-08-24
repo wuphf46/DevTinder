@@ -9,7 +9,7 @@ const connectionRequestSchema = new mongoose.Schema(
     },
     toUserId: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: "user",
+      ref: "User",
       required: true,
     },
     status: {
